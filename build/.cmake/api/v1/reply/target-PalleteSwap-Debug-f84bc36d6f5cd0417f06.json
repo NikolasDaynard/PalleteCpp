@@ -1,0 +1,130 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "PalleteSwap"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 10,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/nix/store/8md3c1mynawp6nvgxi8nfzfw8zyfgfm0-SDL2_image-2.8.2/include/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/nix/store/2fs2zin8pvv7f42kapgv81l4sv6ngk1b-SDL2_ttf-2.22.0/include/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/nix/store/bnp9ksysxwfddiqr289xzzfhxbdsrmxb-SDL2_mixer-2.8.0-dev/include/SDL2"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/nix/store/f4x77fdh4qrzic33anrr56b81i6kcslk-SDL2-2.30.2-dev/include/SDL2"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "PalleteSwap::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/nix/store/f2g8qkn7b171b4nr0m36yi4gwhjj7hmh-SDL2-2.30.2/lib/libSDL2.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "PalleteSwap",
+	"nameOnDisk" : "PalleteSwap",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

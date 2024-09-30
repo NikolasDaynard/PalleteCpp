@@ -1,0 +1,1 @@
+/nix/store/yc9q0h72rlj98y0116c4mma6k80264mv-gcc-wrapper-13.2.0/bin/g++ -g CMakeFiles/PalleteSwap.dir/main.cpp.o -o PalleteSwap  /nix/store/f2g8qkn7b171b4nr0m36yi4gwhjj7hmh-SDL2-2.30.2/lib/libSDL2.so

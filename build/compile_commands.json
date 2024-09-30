@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/nikolasd/dev/PalleteCpp/build",
+  "command": "/nix/store/yc9q0h72rlj98y0116c4mma6k80264mv-gcc-wrapper-13.2.0/bin/g++  -I/nix/store/8md3c1mynawp6nvgxi8nfzfw8zyfgfm0-SDL2_image-2.8.2/include/SDL2 -I/nix/store/2fs2zin8pvv7f42kapgv81l4sv6ngk1b-SDL2_ttf-2.22.0/include/SDL2 -I/nix/store/bnp9ksysxwfddiqr289xzzfhxbdsrmxb-SDL2_mixer-2.8.0-dev/include/SDL2 -isystem /nix/store/f4x77fdh4qrzic33anrr56b81i6kcslk-SDL2-2.30.2-dev/include/SDL2 -g -o CMakeFiles/PalleteSwap.dir/main.cpp.o -c /home/nikolasd/dev/PalleteCpp/main.cpp",
+  "file": "/home/nikolasd/dev/PalleteCpp/main.cpp",
+  "output": "CMakeFiles/PalleteSwap.dir/main.cpp.o"
+}
+]
