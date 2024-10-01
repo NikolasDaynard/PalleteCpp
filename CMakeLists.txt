@@ -3,9 +3,11 @@ project(PalleteSwap VERSION 0.1.0 LANGUAGES C CXX)
 
 # Find SDL2
 find_package(SDL2 REQUIRED)
-# message("${SDL2}")
 
-add_executable(PalleteSwap main.cpp)
+file(GLOB_RECURSE SRC_FILES src/*.cpp)
+
+# Add the executable using the gathered files
+add_executable(PalleteSwap ${SRC_FILES})
 
 target_include_directories(PalleteSwap PRIVATE ${SDL2_INCLUDE_DIRS})
 target_link_libraries(PalleteSwap PRIVATE ${SDL2_LIBRARIES})
